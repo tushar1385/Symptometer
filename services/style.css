@@ -1,0 +1,39 @@
+header img{
+	width: 120px;
+}
+header{
+	padding: 40px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar-default .navbar-toggle {
+	border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+	border-color: #065656;
+}
+.navbar-default .navbar-toggle:hover{
+	background-color: white;
+	
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color:  #065656;
+}
+
+.navbar {
+  width: 100%;
+  border: none;
+  overflow: hidden;
+  background-color: #065656;
+  animation-name: shutter-in-top;
+animation-duration: 1s;
+animation-timing-function: ease;
+animation-delay: 0s;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-fill-mode: none;
+}
