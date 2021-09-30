@@ -29,6 +29,9 @@ header{
   border: none;
   overflow: hidden;
   background-color: #065656;
+/* 
+animation-name: example;
+  animation-duration: 1s; */
   animation-name: shutter-in-top;
 animation-duration: 1s;
 animation-timing-function: ease;
@@ -142,3 +145,302 @@ animation-name: anim2;
 /*header end*/
 
 
+
+
+/* foooter*/
+
+.panel-footer{
+	background: darkcyan;;
+	
+	color: white;
+	opacity: 0.7;
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+
+#social i{
+	color: white;
+	padding-right: 15px;
+	font-size: 18px;
+	padding-top: 10px;
+}
+#social a{
+color: white;
+font-size: 20px;
+font-family: 'Itim', cursive;
+}
+#love i{
+	color: red;
+	
+}
+
+#company {
+	position: relative;
+	left: 20px;
+	padding-top: 22px;
+
+}
+#company p{
+font-family: 'Itim', cursive;
+	padding-left: 20px;
+	font-size: 15px;
+}
+#company img{
+  height: 150px;
+}
+span{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Fredoka One', cursive;
+color: white;
+text-decoration: underline;
+
+}
+#content{
+   padding-top: 40px;
+   color: white;
+   padding-left: 50px;
+
+}
+#social{
+padding-top: 40px;
+padding-left: 50px;
+}
+#info{
+padding-top: 40px;
+padding-left: 30px;
+font-family: 'Itim', cursive;
+}
+#content a{
+	color:white;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: 'Itim', cursive;
+
+	}
+	
+#info i, #content i{
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+
+}
+/* foot end */
+.bkg{
+	background: url(https://image.freepik.com/free-photo/dark-blue-plain-wall-background_53876-92976.jpg);
+}
+
+
+
+body{
+  background-image: url("image4/bkg.jpg");
+}
+
+/* =======CTA START============ */
+  
+.row-flex {
+  display: flex;
+}
+@media (max-width: 690px) {
+.row-flex{
+  display:block;
+}
+
+
+}
+  .cta .row{
+    background-color:  black;
+  }
+  .cta{
+    margin-bottom: 20px;
+}     
+ 
+  .cta .emergency {
+    background: #48bdc5;
+    
+  }
+  
+  .cta .emergency a {
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  .cta .emergency p {
+    padding-top: 20px;
+  }
+  
+  .cta .top-doctor {
+    background: #5bc4cb;
+    height: inherit;
+  }
+  
+  .cta .working-time {
+    background: #6fcbd1;
+    height: absolute;
+  }
+  
+  .cta .item {
+    padding: 20px 30px;
+  }
+  
+  .cta .item i, .cta .item h2, .cta .item p {
+    color: #fff;
+  }
+  
+  .cta .item i {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  /* div.top-doctor.item.col-sm-4{
+      height:100%;
+  } */
+  .cta .item h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .cta .item p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+
+
+/* =======CTA END========== */
+
+/* =============features===================== */
+.feature{
+    background-color: whitesmoke;
+}
+.feature .item{
+    padding: 10px;
+}
+/* ===========end feATURES=========== */
+/* ========TEAM============ */
+.team p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #635656;
+    padding-bottom: 30px;
+  }
+  .team .team-member {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
+  }
+  
+.team h3{
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 34px;
+}
+.team{
+  background-image: url("image4/bkg.jpg");
+}
+.team .row{
+  background-color: white;
+  opacity: 0.85;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+.team .row h4{
+  font-weight: bold;
+  margin-top: 15px;
+}
+.team .row p{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* ======SERVICES START========= */
+.service{
+  padding: 20px;
+  line-height: 26px;
+}
+.nav-tabs{
+  border-bottom: none;
+}
+ img.img-responsive{
+  /* margin-top: 40px; */
+  border-radius: 20px;
+  
+}
+.service .tabs ul li  {
+ 
+  margin: 5px;
+ 
+}
+.service .tabs ul li a {
+  border: 3px solid #54cbc4;
+  font-size: 20px;
+  color: black;
+}
+.service .tabs ul li:hover a{
+  background-color: #54cbc4;
+  color: white;
+ 
+}
+.service .tabs ul li.active a {
+  background-color: #54cbc4;
+  color: white;
+  
+}
+ul.content-list{
+  position: relative;
+  right: 20px;
+}
+.service h3{
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 0;
+
+}
+.service p{
+  color: gray;
+  font-size: 15px;
+  
+    font-weight: 500;
+    padding-top: 5px;
+}
+.service .content-list li{
+  color: #5d6468;
+  list-style: none;
+  
+}
+.service .content-list li i{
+  padding: 4px;
+  
+
+}
+.service{
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.service .row{
+  background-color: whitesmoke;
+  
+}
+@media (max-width: 760px) {
+	.service .tabs ul li a {
+    
+    font-size: 15px;
+     padding: 5px 5px;
+  }
+  }
+  @media (max-width: 390px) {
+    .service .tabs ul li a {
+      
+      font-size: 10px;
+       padding: 3px 3px;
+    }
+    }
